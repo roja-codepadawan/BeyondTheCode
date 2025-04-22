@@ -1,0 +1,41 @@
+import os
+
+def create_project_structure(base_dir="textadventure"):
+    structure = [
+        "static",
+        "static/styles.css",
+        "static/scripts.js",
+        "templates",
+        "templates/index.html",
+        "templates/game.html",
+        "templates/inventory.html",
+        "data",
+        "data/story.json",
+        "data/items.json",
+        "app.py",
+        "game_logic.py",
+        "requirements.txt",
+        "README.md"
+    ]
+
+    for path in structure:
+        full_path = os.path.join(base_dir, path)
+        if "." in path:  # Datei
+            with open(full_path, "w") as f:
+                if path.endswith(".py"):
+                    f.write("# " + path + "\n")
+                elif path.endswith(".json"):
+                    f.write("{}")  # Leere JSON-Datei
+                elif path.endswith(".css"):
+                    f.write("/* Stylesheet */")
+                elif path.endswith(".js"):
+                    f.write("// JavaScript Datei")
+                elif path.endswith(".md"):
+                    f.write("# Projektbeschreibung")
+        else:  # Ordner
+            os.makedirs(full_path, exist_ok=True)
+
+    print(f"Projektstruktur für '{base_dir}' wurde erstellt.")
+
+if __name__ == "__main__":
+    create_project_structure()

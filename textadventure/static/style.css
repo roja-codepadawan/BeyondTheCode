@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #00fff7;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.choice-btn {
+    margin: 10px 0;
+    display: block;
+    background-color: #00c9a7;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+.choice-btn:hover {
+    background-color: #00fff7;
+    color: #000;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #888;
+    text-align: center;
+}

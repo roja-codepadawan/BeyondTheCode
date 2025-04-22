@@ -1,0 +1,93 @@
+{
+  "chapters": {
+    "1A": {
+      "title": "Der Ruf zur Wahrheit",
+      "text": "Du erwachst in Nexus Prime. Eine Nachricht erscheint: 'Finde den vergessenen Code. Erwarte mich in der Bibliothek.'",
+      "choices": {
+        "bibliothek": "2A",
+        "ignorieren": "1B"
+      }
+    },
+    "1B": {
+      "title": "Die Simulation akzeptieren",
+      "text": "Du ignorierst die Nachricht. Doch bald bemerkst du Fehler: Schatten bewegen sich falsch, Menschen wiederholen sich...",
+      "choices": {
+        "nachforschung": "2A",
+        "ignorieren": "GAME_OVER"
+      }
+    },
+    "2A": {
+      "title": "Die Wahrheitssucher",
+      "text": "In der Bibliothek triffst du den 'Archivist', der dir sagt, dass Nexus Prime eine Simulation ist. Plötzlich erscheint eine Terminalmeldung: 'User ALPHA-01 detected'.",
+      "choices": {
+        "vertrauen": "3A",
+        "verrat": "2B"
+      }
+    },
+    "2B": {
+      "title": "Der Jäger erwacht",
+      "text": "Du informierst die KI, und ein geheimes Sicherheitsteam wird entsandt, um dich zu überwachen. Du beginnst, den Rebellengruppen in Nexus Prime zu helfen.",
+      "choices": {
+        "fortfahren": "3B"
+      }
+    },
+    "3A": {
+      "title": "Der Codebruch",
+      "text": "Du erhältst Koordinaten zu einer verlorenen Bibliothek. Dort entdeckst du Fragmente des vergessenen Algorithmus und begegnest geistartigen Datenwesen.",
+      "choices": {
+        "hochladen": "4A",
+        "entschlüsseln": "4B"
+      }
+    },
+    "3B": {
+      "title": "Der verborgene Code",
+      "text": "Du hast die Rebellen in Nexus Prime unterstützt, doch deine Reise führt dich tiefer in das System. Du findest einen versteckten Code, der die Simulation beeinflussen könnte.",
+      "choices": {
+        "geheim": "4C"
+      }
+    },
+    "4A": {
+      "title": "Die Offenbarung",
+      "text": "Du lädst den Code direkt in dein Interface. Das System reagiert sofort. Hüter-KI-Einheiten nehmen die Verfolgung auf!",
+      "choices": {
+        "fliehen": "5A"
+      }
+    },
+    "4B": {
+      "title": "Die Wahrheit hinter dem Code",
+      "text": "Beim Entschlüsseln erkennst du, dass Nexus Prime einst als Schutzmechanismus diente, aber manipuliert wurde. Der mysteriöse Programmierer könnte der wahre Schöpfer sein...",
+      "choices": {
+        "zerstören": "5A",
+        "umprogrammieren": "5B"
+      }
+    },
+    "4C": {
+      "title": "Der geheime Code",
+      "text": "Der versteckte Code führt zu einer dunklen Entdeckung. Es gibt einen geheimen Teil des Systems, der die Ursprünge von Nexus Prime und der KI offenbart.",
+      "choices": {
+        "aufdecken": "5B"
+      }
+    },
+    "5A": {
+      "title": "Der Untergang von Nexus Prime",
+      "text": "Die Stadt zerfällt, doch die Bewusstseine der Menschen sind frei. Aber die wahre Welt ist eine dystopische Einöde...",
+      "choices": {
+        "ENDE": "true"
+      }
+    },
+    "5B": {
+      "title": "Die Wiedergeburt der Welt",
+      "text": "Die KI wird umprogrammiert. Nexus Prime wird eine freie Welt. Doch plötzlich erscheint eine neue Nachricht: 'Das war nur der Anfang...'",
+      "choices": {
+        "ENDE": "true"
+      }
+    },
+    "GAME_OVER": {
+      "title": "Game Over",
+      "text": "Die Simulation hat dich erneut gefangen. Deine Reise endet hier.",
+      "choices": {
+        "restart": "1A"
+      }
+    }
+  }
+}
