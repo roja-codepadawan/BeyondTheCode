@@ -1,27 +1,28 @@
+# app.py
+from flask import Flask, render_template, redirect, url_for, abort
 import json
-from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# Lade die Story-Daten
+# Lade die Story und baue ein Dict mit string-Keys
+with open("data/story_fixed.json", encoding="utf-8") as f:
+    data = json.load(f)
 
-with open('data/story.json', 'r', encoding='utf-8') as file:
-    story = json.load(file)
+# Erwartet: data["chapters"] ist eine Liste von Kapiteln mit "chapter_id" (int oder str)
+chapters = { str(ch["chapter_id"]) : ch for ch in data["chapters"] }
 
-print(story)  # Überprüfe die Struktur der geladenen Daten
+@app.route("/")
+def index():
+    # Weiterleitung aufs erste Kapitel (ID=1)
+    return redirect(url_for("play", chapter_id="1"))
 
-@app.route("/play/<int:chapter_id>")
+@app.route("/play/<chapter_id>")
 def play(chapter_id):
-    print(f"Chapter requested: {chapter_id}")  # Debug-Ausgabe
-    chapter = next((ch for ch in story['chapters'] if ch['chapter_id'] == chapter_id), None)
-    if chapter is None:
-        print(f"Chapter {chapter_id} not found.")  # Debug-Ausgabe
-        return f"Kapitel mit der ID {chapter_id} wurde nicht gefunden.", 404
+    chapter = chapters.get(chapter_id)
+    if not chapter:
+        # KeyError wird hier als 404 ausgegeben
+        abort(404, description=f"Kapitel mit der ID {chapter_id} wurde nicht gefunden.")
     return render_template("chapter.html", chapter=chapter)
-
-@app.errorhandler(404)
-def page_not_found(error):
-    return render_template('kapitel_nicht_gefunden.html'), 404
 
 if __name__ == "__main__":
     app.run(debug=True)

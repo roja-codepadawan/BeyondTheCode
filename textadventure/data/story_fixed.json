@@ -1,0 +1,559 @@
+{
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "Der Ruf der Matrix",
+      "text": "Du erwachst in einer Welt, die scheinbar nur aus Daten und Codes besteht. Deine einzige Erinnerung ist ein verschwommener Traum, in dem ein Amulett, genannt „Aurin“, und ein altes Buch eine zentrale Rolle spielen. Eine mysteriöse Nachricht erscheint in deinem Blickfeld: „Finde den Code, bevor das Nichts alles zerstört. Du bist der Auserwählte.“ Doch bevor du weiter darüber nachdenken kannst, öffnet sich ein Portal vor dir und zieht dich in eine andere Dimension.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Gehe durch das Portal.",
+          "next_chapter_id": 2
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "title": "Das erste Portal",
+      "text": "Du betrittst das erste Portal und landest in einem Wald, der wie aus einem alten Märchen aussieht. Es ist der „Dschungel der verlorenen Seelen“. Plötzlich erscheint eine Figur, die du nur aus Legenden kennst: Yoda, der weise Jedi-Meister aus einer weit entfernten Galaxie. Er spricht zu dir: 'Die Matrix ist nur der Anfang, junger Auserwählter. Du musst lernen, mit der Macht des Aurins die Realität zu beeinflussen, oder alles wird in der Leere versinken.'",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Lerne von Yoda, die Macht zu nutzen.",
+          "next_chapter_id": 3
+        },
+        {
+          "choice_id": 2,
+          "text": "Versuche, den Ursprung des Nichts zu finden.",
+          "next_chapter_id": 4
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "title": "Die Macht des Aurins",
+      "text": "Du lernst von Yoda, wie du die Matrix mit Hilfe des Amuletts Aurin beeinflussen kannst. Du spürst eine wachsende Kraft in dir. Yoda warnt dich jedoch, dass jede Nutzung der Macht auch Konsequenzen hat. Deine Reise wird gefährlicher.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Nutze die Macht, um das Tor zu öffnen.",
+          "next_chapter_id": 5
+        },
+        {
+          "choice_id": 2,
+          "text": "Verweigere die Macht und suche nach einem anderen Weg.",
+          "next_chapter_id": 6
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "title": "Die Quelle des Nichts",
+      "text": "Du gehst auf die Suche nach dem Ursprung des Nichts. In einer dunklen Höhle findest du Hinweise auf eine noch unbekannte Dimension. Doch plötzlich erscheint ein seltsames Wesen, das dir anbietet, das Geheimnis zu teilen, wenn du einen Preis zahlst.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Bezahle den Preis und erhalte das Geheimnis.",
+          "next_chapter_id": 7
+        },
+        {
+          "choice_id": 2,
+          "text": "Verweigere das Angebot und kehre zurück.",
+          "next_chapter_id": 8
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "title": "Das nächste Portal",
+      "text": "Das Tor öffnet sich und du trittst in eine neue Dimension ein. Du befindest dich in einer futuristischen Stadt, in der Technologie und Magie miteinander verschmelzen. Du siehst eine riesige, leuchtende Matrix vor dir.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Untersuche die Matrix und versuche, die Geheimnisse zu entschlüsseln.",
+          "next_chapter_id": 9
+        },
+        {
+          "choice_id": 2,
+          "text": "Gehe zu einem alten Tempel, der in der Nähe liegt.",
+          "next_chapter_id": 10
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "title": "Der alternative Weg",
+      "text": "Du entscheidest dich, der Macht nicht zu vertrauen und suchst nach einem anderen Weg. Du begibst dich auf eine gefährliche Reise, bei der du immer wieder vor schwierige Entscheidungen gestellt wirst.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Folge dem alten Buch und finde den wahren Code.",
+          "next_chapter_id": 11
+        },
+        {
+          "choice_id": 2,
+          "text": "Verbinde dich mit anderen Reisenden, um zu überleben.",
+          "next_chapter_id": 12
+        }
+      ]
+    },
+    {
+      "chapter_id": 7,
+      "title": "Der Preis des Wissens",
+      "text": "Das Wesen enthüllt das Geheimnis des Nichts. Du erfährst, dass das Nichts eine Entität ist, die das gesamte Universum verschlingen will. Doch der Preis für dieses Wissen ist hoch: Du verlierst einen Teil deines Gedächtnisses.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Kämpfe gegen das Nichts.",
+          "next_chapter_id": 13
+        },
+        {
+          "choice_id": 2,
+          "text": "Akzeptiere dein Schicksal und versuche zu fliehen.",
+          "next_chapter_id": 14
+        }
+      ]
+    },
+    {
+      "chapter_id": 8,
+      "title": "Flucht aus der Dunkelheit",
+      "text": "Du fliehst aus der Höhle und kehrst zu Yoda zurück. Doch das Nichts verfolgt dich weiterhin. Du musst dich einer mächtigen Bedrohung stellen.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Verbinde dich mit der Matrix, um das Nichts zu besiegen.",
+          "next_chapter_id": 15
+        },
+        {
+          "choice_id": 2,
+          "text": "Verlasse den Dschungel und finde einen sicheren Ort.",
+          "next_chapter_id": 16
+        }
+      ]
+    },
+    {
+      "chapter_id": 9,
+      "title": "Das Geheimnis der Matrix",
+      "text": "Du beginnst, die Matrix zu entschlüsseln und findest Hinweise, die darauf hindeuten, dass das Schicksal der gesamten Welt in deinen Händen liegt.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Nutze das Wissen, um die Realität zu verändern.",
+          "next_chapter_id": 17
+        },
+        {
+          "choice_id": 2,
+          "text": "Suche nach einer anderen Möglichkeit, die Matrix zu beeinflussen.",
+          "next_chapter_id": 18
+        }
+      ]
+    },
+    {
+      "chapter_id": 10,
+      "title": "Der Tempel der Zeit",
+      "text": "Im Tempel findest du einen alten Propheten, der dir sagt, dass du den Code nur dann finden kannst, wenn du alle Prüfungen der Zeit bestehst.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Nimm die Prüfungen an und begib dich auf die Reise.",
+          "next_chapter_id": 19
+        },
+        {
+          "choice_id": 2,
+          "text": "Verlasse den Tempel und suche nach einer anderen Lösung.",
+          "next_chapter_id": 20
+        }
+      ]
+    },
+    {
+      "chapter_id": 11,
+      "title": "Der wahre Code",
+      "text": "Du findest das alte Buch, das den wahren Code enthält. Doch der Code ist nicht nur eine einfache Reihe von Zeichen – er ist ein lebendiges Element der Matrix, das die Realität beeinflussen kann. Als du versuchst, ihn zu entschlüsseln, wird dir klar, dass dies mehr als nur ein Rätsel ist. Es könnte das Schicksal der Welt verändern.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Decodiere den Code und versuche, die Realität zu verändern.",
+          "next_chapter_id": 21
+        },
+        {
+          "choice_id": 2,
+          "text": "Hebe das Buch auf und versuche, den Code zu verstecken.",
+          "next_chapter_id": 22
+        }
+      ]
+    },
+    {
+      "chapter_id": 12,
+      "title": "Die Reisenden",
+      "text": "Du begibst dich auf eine Reise mit anderen, die sich ebenfalls gegen das Nichts stellen. Doch deine Verbündeten haben ihre eigenen Geheimnisse, und du musst entscheiden, ob du ihnen vertrauen kannst.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Vertraue deinen Gefährten und teile das Wissen über das Buch.",
+          "next_chapter_id": 23
+        },
+        {
+          "choice_id": 2,
+          "text": "Behalte das Wissen für dich und plane deine eigenen Schritte.",
+          "next_chapter_id": 24
+        }
+      ]
+    },
+    {
+      "chapter_id": 13,
+      "title": "Der Kampf gegen das Nichts",
+      "text": "Du trittst in einen epischen Kampf gegen das Nichts, das immer näher kommt, um die Welt zu verschlingen. Du musst deine neu gewonnenen Fähigkeiten und das Wissen um den Code nutzen, um das Universum zu retten.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Nutze die Macht des Aurins, um das Nichts zu zerstören.",
+          "next_chapter_id": 25
+        },
+        {
+          "choice_id": 2,
+          "text": "Schließe einen Pakt mit dem Nichts und versuche, es für dich zu gewinnen.",
+          "next_chapter_id": 26
+        }
+      ]
+    },
+    {
+      "chapter_id": 14,
+      "title": "Flucht vor der Dunkelheit",
+      "text": "Du versuchst, vor der dunklen Entität zu fliehen, aber der Raum und die Zeit beginnen sich zu verzerren. Du musst die Matrix selbst herausfordern, um zu überleben.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Konfrontiere das Nichts mit deinem neu entdeckten Wissen.",
+          "next_chapter_id": 27
+        },
+        {
+          "choice_id": 2,
+          "text": "Fliehe durch ein anderes Portal und suche nach einem sicheren Ort.",
+          "next_chapter_id": 28
+        }
+      ]
+    },
+    {
+      "chapter_id": 15,
+      "title": "Die Matrix kontrollieren",
+      "text": "Du verbindest dich mit der Matrix und beginnst, ihre Gesetze zu kontrollieren. Doch die Matrix ist ein lebendiges Wesen, und sie wird dich herausfordern, deine Macht zu beweisen.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Kontrolliere die Matrix und forme die Realität nach deinen Vorstellungen.",
+          "next_chapter_id": 29
+        },
+        {
+          "choice_id": 2,
+          "text": "Versuche, einen neuen Weg zu finden, ohne die Matrix vollständig zu beherrschen.",
+          "next_chapter_id": 30
+        }
+      ]
+    },
+    {
+      "chapter_id": 16,
+      "title": "Das Verborgene Tor",
+      "text": "Du findest ein verborgenes Tor, das zu einem unbekannten Ziel führt. Doch als du es betrittst, befindest du dich in einer alternativen Dimension, die ganz anders ist als alles, was du bisher erlebt hast.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Untersuche diese neue Dimension und finde heraus, warum sie existiert.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Versuche, das Tor zu schließen und zurückzukehren.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 17,
+      "title": "Die Veränderung der Realität",
+      "text": "Du beginnst, die Realität mit deinen neuen Kräften zu verändern. Doch jede Änderung hat unerwartete Konsequenzen. Die Matrix wird instabil und du musst vorsichtig sein, wie du die Macht nutzt.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Versuche, das Gleichgewicht der Welt zu bewahren.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Nutze die Macht, um deine eigenen Wünsche zu erfüllen.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 18,
+      "title": "Der Verborgene Code",
+      "text": "Du entdeckst, dass der wahre Code nicht in den bekannten Daten liegt, sondern tief im Inneren der Matrix versteckt ist. Du begibst dich auf eine Reise, um diesen geheimen Code zu finden.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Durchsuche die Matrix und entschlüssle den Code.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Suche nach Hinweisen in der realen Welt, um den Code zu finden.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 19,
+      "title": "Die Prüfungen der Zeit",
+      "text": "Im Tempel wirst du vor eine Reihe von Prüfungen gestellt, die die Geschichte und den Ursprung der Matrix betreffen. Jede Entscheidung, die du triffst, beeinflusst den Ausgang der Prüfung.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Bestehe die Prüfungen und erlange das Wissen, das du suchst.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Verlasse den Tempel und suche nach einer anderen Lösung.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 20,
+      "title": "Der Rückkehrer",
+      "text": "Du triffst auf eine Person aus deiner Vergangenheit, die dir hilft, das Rätsel der Matrix zu lösen. Doch sie hat ihre eigenen Pläne, und du musst entscheiden, ob du ihr vertraust.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Vertraue der Person und arbeite mit ihr zusammen.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Weigere dich, ihr zu vertrauen, und gehe deinen eigenen Weg.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 21,
+      "title": "Der finale Code",
+      "text": "Du hast den wahren Code entschlüsselt, doch er ist nicht nur ein Werkzeug der Zerstörung, sondern auch ein Schlüssel zu einer neuen Realität. Du stehst vor der Wahl, die Matrix zu verändern oder sie in ihrer aktuellen Form zu bewahren.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Verändere die Matrix nach deinen Vorstellungen und forme eine neue Welt.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Lass die Matrix unberührt und akzeptiere ihre Natur.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 22,
+      "title": "Der Wächter der Zeit",
+      "text": "Du entdeckst, dass es einen Wächter gibt, der die Zeit kontrolliert und die Realität überwacht. Um weiterzukommen, musst du mit ihm verhandeln oder ihm in einem Kampf gegenübertreten.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Verhandle mit dem Wächter und versuche, seine Hilfe zu gewinnen.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Stelle dich dem Wächter im Kampf.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 23,
+      "title": "Die Zerbrechlichkeit der Realität",
+      "text": "Du beginnst zu erkennen, dass die Realität, in der du dich befindest, nicht stabil ist. Jeder Schritt, den du machst, könnte sie weiter destabilisieren. Du musst eine Entscheidung treffen, die das Schicksal der Welt beeinflussen wird.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Nutze deine Macht, um die Realität zu stabilisieren.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Lass die Realität sich weiter verändern und vertraue darauf, dass es zu einem besseren Ende führen wird.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 24,
+      "title": "Die Suche nach der Wahrheit",
+      "text": "Du bist auf der Suche nach der wahren Natur der Matrix. Doch du stößt auf viele Hindernisse, und nicht jeder, dem du begegnest, hat die besten Absichten.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Finde die Quelle der Matrix und decke die Wahrheit auf.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Glaube denjenigen, die dir sagen, dass es keine Wahrheit gibt, und lebe in Frieden.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 25,
+      "title": "Der verborgene Feind",
+      "text": "Du entdeckst, dass der wahre Feind, der das Nichts erschafft, schon längst in der Matrix ist. Der Feind hat eine Armee von Anhängern und versucht, die Welt zu kontrollieren. Du musst ihn aufhalten.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Gehe in den Kampf und zerstöre den Feind.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Versuche, den Feind zu überlisten und ihn von innen heraus zu besiegen.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 26,
+      "title": "Die Entscheidung der Dunkelheit",
+      "text": "Du stehst nun vor einer gewaltigen Entscheidung: das Nichts vollständig zerstören oder es kontrollieren und seine Macht für dich nutzen.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Zerstöre das Nichts und rette die Welt.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Nutze das Nichts für deine eigenen Zwecke.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 27,
+      "title": "Die Reise in den Abgrund",
+      "text": "Du begibst dich in die tiefsten Abgründe der Matrix, um eine Lösung für das drohende Ende zu finden. Doch was du dort findest, stellt alles, was du je geglaubt hast, in Frage.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Vertraue den alten Wächtern, die in den Abgründen leben, und bitte um Hilfe.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Konfrontiere die dunklen Mächte direkt und versuche, sie zu besiegen.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 28,
+      "title": "Die Rückkehr der Helden",
+      "text": "Die Helden aus deiner Vergangenheit tauchen wieder auf und bieten dir ihre Hilfe an. Doch ihre Hilfe hat einen hohen Preis, und du musst entscheiden, ob du bereit bist, diesen zu zahlen.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Akzeptiere ihre Hilfe und gehe mit ihnen in den Kampf.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Verweigere ihre Hilfe und gehe deinen eigenen Weg.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 29,
+      "title": "Die Macht der Illusion",
+      "text": "Die Matrix beginnt, sich zu verändern, und du erkennst, dass viele der Dinge, die du für real gehalten hast, nur Illusionen sind. Du stehst an einem Scheideweg.",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Versuche, die Matrix zu beherrschen und alles zu kontrollieren.",
+          "next_chapter_id": 55
+        },
+        {
+          "choice_id": 2,
+          "text": "Zerstöre die Matrix und befreie die Menschheit von der Illusion.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 30,
+      "title": "Das Ende der Reise",
+      "text": "Du stehst am Ende deiner Reise. Alle Entscheidungen, die du getroffen hast, haben dich zu diesem Moment geführt. Die Welt der Matrix, das Nichts und das Schicksal der Realität liegen nun in deinen Händen. Welche Richtung wirst du wählen?",
+      "choices": [
+        {
+          "choice_id": 1,
+          "text": "Verwandle die Matrix in eine Welt des Friedens und der Harmonie.",
+          "next_chapter_id": 51
+        },
+        {
+          "choice_id": 2,
+          "text": "Zerstöre die Matrix und lasse die Realität in die Leere fallen.",
+          "next_chapter_id": 52
+        },
+        {
+          "choice_id": 3,
+          "text": "Übernimm die Kontrolle über die Matrix und herrsche als ihr unangefochtener Herrscher.",
+          "next_chapter_id": 53
+        },
+        {
+          "choice_id": 4,
+          "text": "Lass alles hinter dir und gehe in die unbekannten Dimensionen, um ein neues Abenteuer zu beginnen.",
+          "next_chapter_id": 54
+        },
+        {
+          "choice_id": 5,
+          "text": "Opfere dich, um das Nichts zu stoppen und den Ursprung der Matrix zu zerstören.",
+          "next_chapter_id": 55
+        }
+      ]
+    },
+    {
+      "chapter_id": 51,
+      "title": "Die Harmonie der Matrix",
+      "text": "Du hast die Matrix in eine Welt des Friedens und der Harmonie verwandelt. Die einst zerstörerische Kraft des Nichts wurde durch deine Entscheidungen in eine Quelle des Wachstums und des Wohlstands umgewandelt. Die Menschen leben nun in einer Welt, die von der Macht des Aurins und deiner Führung geprägt ist.",
+      "choices": [],
+      "ending": "Du hast die Welt gerettet und eine neue Ära des Friedens eingeläutet. Dein Name wird in der Geschichte der Matrix für immer verewigt."
+    },
+    {
+      "chapter_id": 52,
+      "title": "Das Ende der Matrix",
+      "text": "Du hast die Matrix zerstört und die Realität ist in die Leere gefallen. Alles, was existierte, ist jetzt in einem unendlichen Nichts versunken. Es gibt keine Welt mehr, keine Menschen, keine Dimensionen. Nur Stille und Dunkelheit. Du hast das Spiel gewonnen, aber zu welchem Preis?",
+      "choices": [],
+      "ending": "Du hast die Realität vernichtet. Es gibt keine Rückkehr mehr. Der Tod ist das einzige, was bleibt."
+    },
+    {
+      "chapter_id": 53,
+      "title": "Herrscher der Matrix",
+      "text": "Du hast die Kontrolle über die Matrix übernommen und herrschst jetzt über alle Dimensionen. Doch mit der Macht kommt auch die Verantwortung. Du bist der unangefochtene Herrscher, aber du musst immer wachsam sein, da andere Mächte versuchen könnten, deinen Thron zu stürzen.",
+      "choices": [],
+      "ending": "Du bist der König der Matrix. Deine Entscheidungen beeinflussen das Schicksal aller. Doch ist Macht ohne Frieden wirklich der Sieg, den du gesucht hast?"
+    },
+    {
+      "chapter_id": 54,
+      "title": "Das Unbekannte Abenteuer",
+      "text": "Du hast beschlossen, alles hinter dir zu lassen. Die Matrix, das Nichts, alles ist hinter dir. Du trittst in die unbekannten Dimensionen ein, bereit für neue Abenteuer. Du weißt nicht, was dich erwartet, aber du fühlst dich frei und bereit, alles zu erleben, was das Universum dir zu bieten hat.",
+      "choices": [],
+      "ending": "Du hast die bekannte Realität hinter dir gelassen und dich dem Unbekannten hingegeben. Deine Reise hat keine Grenzen mehr, und du bist der Entdecker eines unendlichen Universums."
+    },
+    {
+      "chapter_id": 55,
+      "title": "Das Opfer",
+      "text": "Du hast dich geopfert, um das Nichts zu stoppen und den Ursprung der Matrix zu zerstören. Dein Leben wird in die ewige Leere eingehen, doch deine Entscheidung hat das Schicksal der Welt verändert. Die Menschen und alle Wesen der Matrix werden in Frieden leben, während du im Hintergrund der Geschichte weiter existierst.",
+      "choices": [],
+      "ending": "Du bist ein Held, doch keiner wird jemals erfahren, dass du der wahre Retter warst. Dein Opfer hat das Universum gerettet, aber du wirst für immer vergessen bleiben."
+    }
+  ]
+}
